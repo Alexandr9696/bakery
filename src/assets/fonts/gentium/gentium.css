@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gentium Plus';
+    src: local('Gentium Plus'), local('GentiumPlus'), url('gentiumplus.woff2') format('woff2'), url('gentiumplus.woff') format('woff'), url('gentiumplus.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gentium Plus';
+    src: local('Gentium Plus Italic'), local('GentiumPlus-Italic'), url('gentiumplusitalic.woff2') format('woff2'), url('gentiumplusitalic.woff') format('woff'), url('gentiumplusitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}

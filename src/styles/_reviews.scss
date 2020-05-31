@@ -1,0 +1,52 @@
+.reviews {
+  padding: 100px 0;
+  background: url("./../assets/img/bg_reviews.jpg") center no-repeat;
+  background-size: cover;
+  &__content {
+    padding: 83px 70px 104px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("./../assets/img/bg_reviews_mini.png");
+    img {
+      margin: 24px 0 36px 0;
+    }
+  }
+  &__title {
+    font-family: "Yeseva One";
+    font-size: 36px;
+    color: #ffffff;
+  }
+  &__description {
+    font-family: "Lato";
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    &__bottom {
+      margin-top: 15px;
+      font-family: "Lato";
+      font-size: 18px;
+      color: #ffffff;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .reviews {
+    &__content {
+      padding: 45px 25px 45px 25px;
+    }
+    &__title {
+      font-size: 30px;
+
+    }
+    &__description {
+      font-size: 18px;
+      &__bottom {
+        font-size: 14px;
+      }
+    }
+  }
+}

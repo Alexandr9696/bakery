@@ -1,0 +1,111 @@
+.promo {
+  min-height: 750px;
+  background: url("./../assets/img/bg_promo.png") no-repeat;
+  background-size: cover;
+  &__content {
+    text-align: center;
+    margin-top: 130px;
+  }
+  &__title {
+    font-family: 'Yeseva One';
+    font-size: 90px;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+  &__icon {
+    margin: 33px 0;
+  }
+  &__buttons {
+    display: flex;
+    justify-content: center;
+  }
+  &__button {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 14px 53px;
+    color: #ffffff;
+    margin: 0 30px;
+    border: 1px solid #ffffff;
+    background-color: rgba(255,255,255,0.5);
+    transition: all 0.5s;
+    text-decoration: none;
+  }
+  &__button:hover {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #000000;
+    background-color: rgba(0,0,0,0.5);
+  }
+}
+
+@media (max-width: 1200px) {
+  .promo {
+    &__content {
+      margin-top: 65px;
+    }
+
+  }
+}
+
+@media (max-width: 992px) {
+  .promo {
+    &__content {
+      margin-top: 130px;
+    }
+    &__title {
+      font-size: 66px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .promo {
+    &__button {
+      font-size: 16px;
+      padding: 14px 30px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .promo {
+    &__content {
+      margin-top: 107px;
+    }
+    &__title {
+      font-size: 44px;
+    }
+    &__buttons {
+      margin-top: 65px;
+    }
+    &__button {
+      font-size: 12px;
+      padding: 10px 10px;
+      margin: 0 15px;
+    }
+  }
+}
+
+
+@media (max-width: 320px) {
+  .promo {
+    height: 568px;
+    &__content {
+      margin-top: 75px;
+    }
+    &__title {
+      font-size: 35px;
+    }
+    &__buttons {
+      margin-top: 50px;
+    }
+    &__button {
+      font-size: 12px;
+      padding: 10px 10px;
+      margin: 0 15px;
+    }
+  }
+}
+
